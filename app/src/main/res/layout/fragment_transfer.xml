@@ -76,6 +76,7 @@
         android:text="@string/title_contact"/>
 
     <androidx.recyclerview.widget.RecyclerView
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:id="@+id/recycler_contact"
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
